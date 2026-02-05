@@ -19,9 +19,9 @@
 #   gh aw compile
 # For more information: https://github.com/github/gh-aw/blob/main/.github/aw/github-agentic-workflows.md
 #
-# Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused PRs for Copilot to fix
+# Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused issues for Copilot to fix
 #
-# frontmatter-hash: 0b6f4423968a89b840c7adfbf25eebd97c76615767f820cf44f44434c9826aa6
+# frontmatter-hash: 4d3e7aec04624091bcce8638efc9a26f80fb92333c510bfb52e4969a0d5cd30a
 
 name: "Dependabot Alerts Triage and Bundling"
 "on":
@@ -881,7 +881,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         env:
           WORKFLOW_NAME: "Dependabot Alerts Triage and Bundling"
-          WORKFLOW_DESCRIPTION: "Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused PRs for Copilot to fix"
+          WORKFLOW_DESCRIPTION: "Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused issues for Copilot to fix"
           HAS_PATCH: ${{ needs.agent.outputs.has_patch }}
         with:
           script: |

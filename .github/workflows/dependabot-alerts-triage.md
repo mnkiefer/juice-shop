@@ -1,5 +1,5 @@
 ---
-description: Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused PRs for Copilot to fix
+description: Automatically triage and bundle Dependabot security alerts by runtime and manifest, creating focused issues for Copilot to fix
 on:
   schedule: weekly
 permissions:
@@ -36,7 +36,6 @@ You are an AI agent that automatically triages Dependabot security alerts and bu
    - Provides links to the Dependabot alerts
    - Has a clear title like: "Security: [Runtime] vulnerabilities in [manifest path]"
    - Is labeled with: `security`, `dependencies`, and the severity level
-   - Assigns the issue to @copilot for automated remediation
 
 ## Guidelines
 
