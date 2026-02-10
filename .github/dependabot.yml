@@ -1,3 +1,11 @@
+# Dependabot configuration for automatic dependency updates
+# 
+# IMPORTANT: If you've forked this repository and Dependabot is not creating PRs:
+# Dependabot is DISABLED by default on forks. You must manually enable it in:
+# Settings → Code security and analysis → Enable "Dependabot version updates"
+# 
+# For detailed setup instructions, see: .github/DEPENDABOT_SETUP.md
+#
 version: 2
 updates:
   # Root directory - npm packages
