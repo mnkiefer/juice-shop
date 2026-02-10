@@ -32,3 +32,7 @@ You can find our detailed contribution guidelines over here:
 
 Learn all about our crowdsourced [translation project on Crowdin](https://crowdin.com/project/owasp-juice-shop)
 here: <https://pwning.owasp-juice.shop/companion-guide/latest/part3/translation.html>
+
+## Fork Maintenance
+
+Maintaining a fork? Dependabot won't work automatically - see [.github/DEPENDABOT_SETUP.md](.github/DEPENDABOT_SETUP.md) for activation instructions.
