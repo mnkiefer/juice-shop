@@ -60,7 +60,8 @@ Once Dependabot is enabled:
 4. **Review ignored packages**: The config ignores certain package versions (see `.github/dependabot.yml`)
 
 ### Additional Resources
-- [GitHub Docs: Dependabot on forks](https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide)
+- [GitHub Docs: Dependabot quickstart guide](https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide)
+- [GitHub Docs: Configuring Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
 - [Troubleshooting Dependabot errors](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/troubleshoot-dependency-security/troubleshooting-dependabot-errors)
 
 ## Why Is Dependabot Disabled on Forks?
